@@ -1,0 +1,32 @@
+{
+  "status": "ok", 
+  "running": [], 
+  "finished": [
+    {
+      "spider": "csrc_zjh", 
+      "start_time": "2017-12-16 10:02:54.300948", 
+      "end_time": "2017-12-16 10:02:57.965779", 
+      "id": "378d6adce20511e7a477f45c89bc1a59"
+    }, 
+    {
+      "spider": "csrc_zjh", 
+      "start_time": "2017-12-16 10:02:49.292859", 
+      "end_time": "2017-12-16 10:03:02.265082", 
+      "id": "378bd92ee20511e78427f45c89bc1a59"
+    }, 
+    {
+      "spider": "csrc_zjh", 
+      "start_time": "2017-12-16 10:11:14.295165", 
+      "end_time": "2017-12-16 10:11:16.918124", 
+      "id": "5f224557e20611e7a51bf45c89bc1a59"
+    }, 
+    {
+      "spider": "csrc_zjh", 
+      "start_time": "2017-12-16 10:11:09.296080", 
+      "end_time": "2017-12-16 10:11:18.755829", 
+      "id": "5f21b938e20611e7b114f45c89bc1a59"
+    }
+  ], 
+  "pending": [], 
+  "node_name": "bogon"
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的主页</title>
+</head>
+<body>
+    <h1>Hello！My girl!</h1>
+    {% for project in projects %}
+    <h2><a href="/spider_list/{{project}}">{{project}}</a></h2>
+    <li><a href="/del_project/{{project}}">删除项目</a></li>
+    <li><a href="/state">爬虫状态</a></li>
+    {% endfor %}
+
+</body>
+</html>

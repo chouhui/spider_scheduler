@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}---{% endblock %}
+
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Hello！My crawls!</h1>
+        {% for spider in spiders %}
+        <tr><h2>{{spider}}</h2>
+        <li><a href="http://127.0.0.1:3001/open/{{spider}}"><span>开启</span></a></li>
+        <li><a href="http://127.0.0.1:3001/cancel/{{spider}}"><span>取消</span></a></li>
+            </tr>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

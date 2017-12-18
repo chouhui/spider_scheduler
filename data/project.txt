@@ -1,0 +1,8 @@
+{
+  "status": "ok", 
+  "projects": [
+    "default", 
+    "distributed_crawl"
+  ], 
+  "node_name": "bogon"
+}

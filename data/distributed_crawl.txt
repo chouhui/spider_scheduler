@@ -1,0 +1,11 @@
+{
+  "status": "ok", 
+  "spiders": [
+    "csrc_zjh", 
+    "meigu_shangshi", 
+    "meigu_xueqiu_lack", 
+    "sina_zgg", 
+    "xueqiu_meigu"
+  ], 
+  "node_name": "bogon"
+}
